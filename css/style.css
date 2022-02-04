@@ -1,0 +1,714 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #cccccc;
+	color: #333333;
+	font-size: 15px;
+	line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: #3583aa;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #788d98;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+header{
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.global-nav{
+	float: right;
+	margin-top: 100px;
+}
+
+.global-nav li{
+	float: left;
+	margin: 0 20px;
+	font-size: 20px;
+	list-style: none;
+	font-family: 'Bitter', serif;
+}
+
+.global-nav li a{
+	color: #808080;
+}
+
+.global-nav li a:hover{
+	border-bottom: 2px solid #808080;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+#wrap{
+	clear: both;
+	background-color: #ffffff;
+	margin-top: 220px;
+	padding: 35px 0;
+}
+
+.content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+footer{
+	text-align: center;
+	color: #000000;
+	padding: 20px 0;
+	background-color: #767671;
+}
+
+footer small{
+	font-size: 12px;
+}
+
+.btn a{
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+	width: 185px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 3px solid #009cd3;
+}
+
+.btn a:hover{
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #009cd3;
+}
+
+/* lessons.htmlの設定ここから */
+
+
+
+/* lessons.htmlの設定ここまで */
+
+/* index.htmlの設定ここから */
+
+#index{
+	/* background-image: url(../images/bg-index2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover; */
+	background-color: transparent;
+}
+
+#index .global-nav li a{
+	color: #000000;
+}
+
+#index h1{
+	font-size: 100px;
+	line-height: 1;
+	color: #808080;
+	font-family: 'Bitter', serif;
+	margin-bottom: 50px;
+	border: none;
+}
+
+#index .content{
+	margin-top: 150px;
+	background-color: transparent;
+}
+
+#index p{
+	font-size: 16px;
+	color: #050505;
+}
+
+#index #wrap .content h1 span{
+	color: #df0f2b;
+}
+
+#index footer{
+	width: 960px;
+	margin: 150px auto 0;
+	text-align: left;
+	background-color: transparent;
+	color: #000000;
+}
+
+#index #wrap{
+	background-color: transparent;
+	margin-top: 0;
+	padding: 0;
+	border: none;
+}
+
+#bg-video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: none;
+	z-index: -100;
+	background: url(../images/bg-index2.jpg) no-repeat;
+	background-size: cover;
+}
+
+/* .fade-in-bottom2 {
+	opacity: 0;
+	animation-name: fadein-bottom;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+} */
+
+.fade-in-bottom {
+	opacity: 0;
+	animation-name: fadein-bottom;
+	animation-duration: 2s;
+	animation-delay: 11s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadein-bottom {
+	0% {
+	opacity: 0;
+	transform: translateY(20px);
+	}
+	100% {
+	opacity: 1;
+	transform: translateY(0);
+	}
+}
+/* index.htmlの設定ここまで */
+
+/* about.htmlの設定ここから */
+
+#about{
+	background-image: url(../images/bg-about2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#about .profile-txt{
+	width: 540px;
+	float: left;
+}
+
+#about .profile-txt span{
+	font-weight: bold;
+}
+
+#about .profile-image{
+	float: right;
+}
+
+#about .career th{
+	width: 240px;
+	background-color: #f0f0f0;
+	padding: 2px 0;
+	border: 1px solid #cccccc;
+}
+
+#about .career td{
+	width: 100px;
+	padding: 4px 0 2px 4px;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+.main-center{
+	width: 940px;
+	margin: 0 auto;
+}
+
+#about .career p {
+	text-align: center;
+}
+
+/* about.htmlの設定ここまで */
+
+h1{
+	font-family: 'Bitter', serif;
+	font-size: 36px;
+	border-bottom: 1px solid #cccccc;
+}
+
+h2{
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+}
+
+.icon:before{
+	content: "";
+	padding-right: 10px;
+	border-left: 7px solid #9cb4a4;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+section{
+	margin-bottom: 35px;
+}
+
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/* portfolioの設定ここから */
+
+#portfolio{
+	background-image: url(../images/bg-portfolio2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.main{
+	width: 700px;
+	margin: 0 10px;
+	float: left;
+}
+
+.sidebar{
+	width: 200px;
+	margin: 0 10px 0 30px;
+	float: right;
+	font-family: 'Bitter', serif;
+}
+
+.sidebar h2{
+	margin-bottom: 10px;
+}
+
+.sidebar ul{
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.sidebar ul a{
+	color: #333333;
+}
+
+#portfolio .main h2{
+	float: right;
+}
+
+#portfolio .main hr{
+	clear: both;
+}
+
+#portfolio .main section p{
+	padding-top: 60px;
+}
+
+/* portfolioの設定ここまで */
+
+a img:hover{
+	opacity: 0.8;
+}
+
+/* photographの設定ここから */
+
+#photograph{
+	background-image: url(../images/bg-photograph.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#photograph .photograph-list li{
+	float: left;
+	list-style: none;
+	margin: 0 20px 15px 0;
+}
+
+#photograph .photograph-list li:nth-child(3n){
+	margin-right: 0;
+}
+
+.cp_cssslider {
+	width: 220px;
+	height: 160px;
+	overflow: hidden;
+	margin: 2em auto;
+	border: 10px solid #ffffff;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.cp_slide_item {
+	width: 220px;
+	height: 160px;
+	float: left;
+	position: relative;
+}
+.cp_slidewrapper {
+	width: 700%;/* slideの枚数×100% */
+	position: relative;
+	left: 0;
+	animation: slider 20s infinite ease;/* スピード */
+}
+@-webkit-keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+	14% {
+	-webkit-transform: translateX(-220px);
+	transform: translateX(-220px);
+	}
+	28% {
+	-webkit-transform: translateX(-440px);
+	transform: translateX(-440px);
+	}
+	42% {
+	-webkit-transform: translateX(-660px);
+	transform: translateX(-660px);
+	}
+	56% {
+	-webkit-transform: translateX(-880px);
+	transform: translateX(-880px);
+	}
+	70% {
+		-webkit-transform: translateX(-1100px);
+		transform: translateX(-1100px);
+	}
+	84% {
+		-webkit-transform: translateX(-1320px);
+		transform: translateX(-1320px);
+	}
+	100% {
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	}
+}
+@keyframes slider {
+	/* 100%を枚数で割った%に割り振る */
+	0% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		}
+		14% {
+		-webkit-transform: translateX(-220px);
+		transform: translateX(-220px);
+		}
+		28% {
+		-webkit-transform: translateX(-440px);
+		transform: translateX(-440px);
+		}
+		42% {
+		-webkit-transform: translateX(-660px);
+		transform: translateX(-660px);
+		}
+		56% {
+		-webkit-transform: translateX(-880px);
+		transform: translateX(-880px);
+		}
+		70% {
+			-webkit-transform: translateX(-1100px);
+			transform: translateX(-1100px);
+		}
+		84% {
+			-webkit-transform: translateX(-1320px);
+			transform: translateX(-1320px);
+		}
+		100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+		}
+}
+
+/* photographの設定ここまで */
+
+/* videoの設定ここから */
+
+#video{
+	background-image: url(../images/bg-video.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+/* videoの設定ここまで */
+
+/* contactの設定ここから */
+
+#contact{
+	background-image: url(../images/bg-contact2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#contact .access table{
+	float: left;
+}
+
+#contact .access th,td{
+	text-align: left;
+	vertical-align: top;
+	line-height: 2.5;
+}
+
+#contact .access td{
+	padding-left: 30px;
+}
+
+#contact iframe{
+	width: 460px;
+	float: right;
+}
+
+#contact .form{
+	background-color: #eaeaea;
+	padding: 30px 50px;
+}
+
+#contact .form dl dt{
+	width: 165px;
+	padding: 10px 0;
+	float: left;
+	clear: both;
+}
+
+#contact .form dl dd{
+	padding: 10px 0;
+}
+
+#contact .form .name{
+	width: 240px;
+	height: 30px;
+}
+
+#contact .form .email{
+	width: 300px;
+	height: 30px;
+}
+
+#contact .form .tel{
+	width: 240px;
+	height: 30px;
+}
+
+#contact .form .type{
+	width: 180px;
+	height: 30px;
+}
+
+#contact .form .message{
+	width: 660px;
+	height: 150px;
+}
+
+#contact .form button{
+	background-color: #009cd3;
+	color: #ffffff;
+	font-size: 20px;
+	width: 120px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+	border: 3px solid #009cd3;
+	margin-left: 165px;
+}
+
+#contact .form button:hover{
+	background-color: #ffffff;
+	color: #009cd3;
+	cursor: pointer;
+}
+
+#contact .form .required::after{
+	content: " * ";
+	color: #ff0000;
+}
+
+#contact .form .attention{
+	margin: 20px 0 0 165px;
+}
+
+/* contactの設定ここまで */
+
+/* tickets.htmlの設定ここから */
+
+#tickets{
+	background-image: url(../images/bg-tickets.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#tickets .main-center a:hover{
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #eeff00;
+	border: solid 2px #000000;
+	text-decoration: none;
+}
+
+#tickets .table th,
+#tickets .table td{
+	border: solid 1px #000000;
+	padding: 10px;
+	width: 230px;
+}
+
+#tickets .table td{
+	text-align: center;
+}
+
+/* tickets.htmlの設定ここから */
+
+/* lessons.htmlの設定ここから */
+
+#lessons{
+	background-image: url(../images/bg-lesson.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#lessons .lesson li{
+	margin-left: 38px;
+}
+
+#lessons .main-center small{
+	color: #ff0000;
+	margin-bottom: 20px;
+	display: block;
+}
+
+/* lessons.htmlの設定ここまで */
+
+/* レスポンシブデザインの設定ここから */
+
+@media screen and (max-width:600px) {
+/* 画面サイズが600px以下の場合に適用 */
+
+body{
+	font-size: 3.5vw;
+}
+
+h1{
+	font-size: 7.2vw;
+}
+
+h2{
+	font-size: 6vw;
+}
+
+header{
+	width: auto;
+	margin: 0 5%;
+}
+
+.logo{
+	float: none;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.global-nav{
+	float: none;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.global-nav li{
+	display: block;
+	float: left;
+	margin: 0 10px;
+}
+
+#wrap{
+	margin-top: 250px;
+	padding: 35px 0 0;
+}
+
+.content{
+	width: 100%;
+}
+
+.main{
+	float: none;
+	width: auto;
+	margin: 0 5%;
+}
+
+.main-center{
+	float: none;
+}
+
+h2 img{
+	max-width: 100%;
+}
+
+#portfolio{
+	background-image: url(../images/bg-portfolio-sp.jpg);
+}
+
+#about{
+	background-image: url(../images/bg-about-sp.jpg);
+}
+
+#contact{
+	background-image: url(../images/bg-contact-sp.jpg);
+}
+
+.sidebar{
+	width: auto;
+	float: none;
+	margin: 0;
+	padding: 30px 10% 10px;
+	background-color: #f7f6f4;
+}
+
+}
+
+/* レスポンシブデザインの設定ここまで */
